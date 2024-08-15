@@ -368,13 +368,13 @@
   color: #fff;
 }
 .project-1{
-background-image: url(/src/img/Screenshot\ \(4\).png);
+background-image: url('../img/Screenshot\ \(4\).png');
 }
 .project-2{
-  background-image: url(/src/img/Screenshot\ \(4\).png);
+  background-image: url('../img/Screenshot\ \(4\).png');
 }
 .project-3{
-  background-image: url(/src/img/Screenshot\ \(4\).png);
+  background-image: url('../img/Screenshot\ \(4\).png');
 }
 .card_overlay{
   position: absolute;
