@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+      integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/css/components.css" />
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js' crossorigin='anonymous'></script>
+    <script src="src/js/script.js" defer></script>
+    <title>My Resume</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+
+        <div class="row justify-content-center">
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox d-none" id="navi-toggle">
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#Home" class="navigation__link">Home</a></li>
+          <li class="navigation__item"><a href="#Experiences" class="navigation__link">Experiences</a></li>
+          <li class="navigation__item"><a href="#About" class="navigation__link">About</a></li>
+          <li class="navigation__item"><a href="#Projects" class="navigation__link">Projects</a></li>
+          <li class="navigation__item"><a href="#Contact" class="navigation__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="Home">
+      <div class="container">
+        <div class="introduction row justify-content-around align-items-center p-lg-5">
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-6 d-flex flex-column introduction-text">
+            <div>
+              <h1>Mohammmad Elfauri</h1>
+                <h3><span>I'm a </span> <span id="job-title" class="d-inline-block">UI/UX Designer</span></h3>
+            </div>
+            <div>
+              <p class="description">
+                <i>
+                  I am passionate about designing digital experiences that are
+                  both visually stunning and intuitive, and always strive to
+                  create designs that delight and engage users.
+                </i>
+              </p>
+              <!-- <p class="linkedin-icon"> <a href="https://www.linkedin.com/in/el-fauri/"><img src="src/img//linkedin.png" alt="my linkedin acc" > </a></p> -->
+              <div class="CV-button">
+                <a href="src/ATS-resume-template-classic-resume.docx"
+                  >Download CV</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="img-container col col-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="src/img/MyPic.png" class="introduction-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Experiences" class="full-width-invert">
+      <div class="container">
+        <div>
+          <h2>My Experiences</h2>
+        </div>
+
+        <div class="row cards-controller g-3">
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-text d-flex flex-column">
+                <div>
+                  <div class="icon-controller d-flex justify-content-between">
+                    <h3>UI/UX & Front-End Developer</h3>
+                    <img src="src/img//coding.png" alt="Developer" />
+                  </div>
+                  <h4>Electronic Health Solutions, Amman-Jordan</h4>
+                  <h4>Oct 2021 - Present</h4>
+                </div>
+                <div>
+                  <p>
+                    <i>
+                      User Interface specialist focused on customer needs,
+                      requirements, and personas, as well as end-to-end web
+                      development using the latest technologies such as
+                      JavaScript, JQueries, HTML, CSS, and more.
+                    </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-text d-flex flex-column">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <h3>TELESALES REPRESENTATIVE</h3>
+                  <img src="src/img//acquisition.png" alt="sales" />
+                </div>
+                <h4>Abwaab, Amman-Jordan</h4>
+                <h4>Jan 2021 – June 2021</h4>
+              </div>
+              <div>
+                <p>
+                  <i
+                    >Leading the sales team and managing the sale of vouchers
+                    and learning cards for university students.</i
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-text d-flex flex-column">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <h3>QUALITY ASSURANCE</h3>
+                  <img src="src/img//malware.png" alt="quality" />
+                </div>
+                <h4>Royal Scientific Society, Amman- Jordan</h4>
+                <h4>Undergraduate internship (90 hours)</h4>
+              </div>
+              <div>
+                <p>
+                  <i
+                    >Learning how conduct website manual testing, I have managed
+                    and solved different test cases throughout my internship
+                    using the latest techniques and technologies.</i
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="About">
+      <div class="container">
+      <div><h2>About Me</h2></div>
+      <div class="About-section">
+        <div class="row gy-5 services-container">
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="service d-flex justify-content-center flex-column  align-items-center">
+            <div class="circle">
+              <div class="circle-side d-flex justify-content-center align-items-center  service-front">
+                <img src="src/img//web-design.png" alt="web design" />
+              </div>
+              <div class="circle-side d-flex justify-content-center align-items-center  service-back">Web Design</div>
+            </div>
+            <p class="service-description">
+              Creating visually appealing and user-friendly websites with a
+              focus on intuitive design and seamless user experience.
+            </p>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="service d-flex justify-content-center flex-column  align-items-center">
+            <div class="circle">
+              <div class="circle-side d-flex justify-content-center align-items-center  service-front">
+                <img src="src/img//coding (1).png" alt="development" />
+              </div>
+              <div class="circle-side d-flex justify-content-center align-items-center  service-back">Web Development</div>
+            </div>
+            <p class="service-description">
+              Developing responsive and interactive websites using modern
+              technologies to bring your vision to life with clean, efficient
+              code
+            </p>
+          </div>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="service d-flex justify-content-center flex-column  align-items-center">
+            <div class="circle">
+              <div class="circle-side d-flex justify-content-center align-items-center  service-front">
+                <img src="src/img//malware.png" alt="Graphic Design" />
+              </div>
+              <div class="circle-side d-flex justify-content-center align-items-center  service-back">Manual Testing</div>
+            </div>
+            <p class="service-description">
+              Providing thorough manual testing to identify and resolve issues,
+              ensuring a flawless and reliable user experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="service d-flex justify-content-center flex-column  align-items-center">
+            <div class="circle">
+              <div class="circle-side d-flex justify-content-center align-items-center  service-front">
+                <img src="src/img//project-management.png" alt="Management" />
+              </div>
+              <div class="circle-side d-flex justify-content-center align-items-center  service-back">Management</div>
+            </div>
+            <p class="service-description">
+              Overseeing projects from start to finish with effective planning,
+              coordination, and communication to ensure timely and high-quality
+              delivery.
+            </p>
+          </div>
+          </div>
+
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="service d-flex justify-content-center flex-column  align-items-center">
+            <div class="circle">
+              <div class="circle-side d-flex justify-content-center align-items-center  service-front">
+                <img src="src/img//product-design.png" alt="Prototype" />
+              </div>
+              <div class="circle-side d-flex justify-content-center align-items-center  service-back">Prototype</div>
+            </div>
+            <p class="service-description">
+              Designing interactive prototypes to visualize and test the
+              functionality and user flow of your digital product before
+              development
+            </p>
+          </div>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="service d-flex justify-content-center flex-column  align-items-center">
+            <div class="circle">
+              <div class="circle-side d-flex justify-content-center align-items-center  service-front">
+                <img src="src/img//wireframe.png" alt="wireframes" />
+              </div>
+              <div class="circle-side d-flex justify-content-center align-items-center  service-back">wireframes</div>
+            </div>
+            <p class="service-description">
+              Creating detailed wireframes to outline the structure and layout
+              of your website or app, ensuring a clear and efficient design
+              process.
+            </p>
+          </div>
+          </div>
+
+        </div>
+
+      <div class="mt-5"><h2>My skills</h2></div>
+        <div class=" skills-section">
+          <div class="row g-3 skills">
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between ">
+                <span>UI/UX design</span>
+                <span>60%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value design"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>UI/UX methodologies</span>
+                <span>90%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value methodologies"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>Adobe suite</span>
+                <span>55%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value Adobe"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>html/CSS</span>
+                <span>95%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value communication"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value JavaScript"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>Usability testing</span>
+                <span>90%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value Usability"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>Manual testing</span>
+                <span>95%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value communication"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>Business analysis (Power Bi)</span>
+                <span>80%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value analysis"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>Communication</span>
+                <span>95%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value communication"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>Goal Oriented</span>
+                <span>95%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value communication"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>Team work</span>
+                <span>95%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value communication"></div>
+              </div>
+            </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="skill">
+              <div class="title-controller d-flex justify-content-between">
+                <span>ambitious</span>
+                <span>100%</span>
+              </div>
+              <div class="progress d-flex align-items-center justify-content-start ">
+                <div class="progress-value ambitious"></div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="Projects" class="full-width-invert">
+      <div class="container">
+        <div>
+          <h2>My Projects</h2>
+        </div>
+          <div class="row g-3 project-section">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4  ">
+              <div class="project_card d-block">
+                <div class="card__title project-1">
+                <div class="card_overlay">
+                  <div class="card__header">
+                      <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path></path></svg>
+                    <div class="card__header-text">
+                        <a class="btn card-btn" href="#project-1">TEST1</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4  ">
+              <div class="project_card d-block">
+                <div class="card__title project-2">
+                <div class="card_overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path></path></svg>
+                  <div class="card__header-text">
+                      <a class="btn card-btn" href="#project-2">TEST2</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4  ">
+              <div class="project_card d-block">
+                <div class="card__title project-3">
+                <div class="card_overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path></path></svg>
+                  <div class="card__header-text">
+                      <a class="btn card-btn " href="#project-3">TEST3</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="Contact" >
+      <div class="container">
+        <div><h2>Contact me</h2></div>
+        <div class="row contact-section justify-content-between">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3 contact-info">
+            <div class="row g-3 flex-column">
+              <div class="col-12 ">
+                <div class="contact d-flex justify-content-evenly">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                  </div>
+                  <div class="contact-text">
+                    <p> <strong>Address</strong></p>
+                    <p>Amman/khalda</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12  ">
+                <div class="contact d-flex justify-content-evenly">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>
+                  </div>
+                  <div class="contact-text">
+                    <p> <strong>Phone</strong></p>
+                    <p>+962792792606</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 ">
+                <div class="contact d-flex justify-content-evenly">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+                  </div>
+                  <div class="contact-text">
+                    <p> <strong>Email</strong></p>
+                    <p class="email-value ps-2">mohammadalfaure190<span class="space d-none"></span>@gmail.com
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8 contact-input">
+            <div class="form-section ">
+              <form action="mailto:mohammadalfaure190@gmail.com" class="contact-form row g-3" method="post" enctype="text/plain" onsubmit="formatMailBody()" autocomplete="off">
+                <div class="input-group col-12 col-sm-12 col-md-6 col-lg-6">
+                <input type="text" class="input" id="name" name="name" required>
+                <label class="user-label">Name</label>
+                </div>
+                
+                <div class="input-group col-12 col-sm-12 col-md-6 col-lg-6">
+                <input type="number" class="input" id="number" name="number" required>
+                <label class="user-label">Phone number</label>
+
+                </div>
+
+                <div class="input-group col-12 col-sm-12 col-md-12 col-lg-12">
+                <input type="text" class="input" id="Subject" name="subject" required>
+                <label class="user-label">Subject</label>
+
+                </div>
+
+                <div class="input-group col-12 col-sm-12 col-md-12 col-lg-12">
+                <textarea class="form-control input" id="Message" class="input" rows="5" name="message" required ></textarea>
+                <label class="user-label">Message</label>
+                </div>
+                <div class="btn-wrapper">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+          </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="d-flex  justify-content-center p-3">
+      <p class="footer-content">
+        © Copyright By <a target="_blank" href="https://www.linkedin.com/in/el-fauri/">Mohammad Elfauri</a>
+      </p>
+    </footer>
+
+
+  </body>
+</html>
