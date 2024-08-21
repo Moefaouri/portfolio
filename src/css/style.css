@@ -108,6 +108,15 @@ section h2 {
   width: 100%;
   color: #000000c3;
 }
+.project-1 {
+  background-image: url("../img/stepper.png");
+}
+.project-2 {
+  background-image: url("../img/education.png");
+}
+.project-3 {
+  background-image: url("../img/port.png");
+}
 .contact-info, .service p, section h2 {
   text-align: center;
 }
