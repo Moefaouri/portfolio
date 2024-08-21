@@ -1,7 +1,9 @@
 $('.navigation__item').on('click', function(){
     $('.navigation__checkbox').click()
 })
-
+$('.project_card').on('click', function () {
+  window.open($('a', this).attr('href'),'_blank')
+})
 // animate skill progress bar when user reach skill section
 const skillsSection = $('.skills-section')[0]
 const skillsObserver = new IntersectionObserver(function(entries, observer) {
