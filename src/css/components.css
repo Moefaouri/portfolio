@@ -359,23 +359,21 @@
   background: #fff;
   z-index: 3;
 }
-.card__title{
+.card__title {
   height: 25rem;
   width: 100%;
-  background-size: 100% 100%;
-  background-position: 0 86%;
+  background-size: 70% 70%;
+  background-position: 50% 40%;
   background-repeat: no-repeat;
   color: #fff;
+  background-color: rgba(238, 238, 228, 0.2);
+  cursor: pointer;
+  transition: all ease 0.3s;
 }
-.project-1{
-background-image: url('../img/Screenshot\ \(4\).png');
+.card__title:hover {
+  background-size: 100% 100%;
 }
-.project-2{
-  background-image: url('../img/Screenshot\ \(4\).png');
-}
-.project-3{
-  background-image: url('../img/Screenshot\ \(4\).png');
-}
+
 .card_overlay{
   position: absolute;
   bottom: 0;
