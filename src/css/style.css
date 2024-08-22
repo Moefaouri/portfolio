@@ -5,6 +5,10 @@
   --color-tertiary:#ECF0F3ed;
   --color-tertiary-light:#F6F5F2;
 }
+::selection{
+  background: var(--color-primary);
+  color: var(--color-tertiary-light);
+}
 * {
   margin: 0;
   padding: 0;
